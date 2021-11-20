@@ -1,0 +1,370 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* 
+   font-family: 'Raleway', sans-serif;
+   font-family: 'Antic Didone', serif;
+ */
+header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+header section{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 60px;
+    background-color: white;
+    margin: 10px auto;
+}
+header section aside nav ul{
+    display: flex;
+}
+header section .right nav ul{
+    width: 480px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+header section .right nav ul li a{
+    display: flex;
+    justify-content: space-between;
+}
+header section nav ul li{
+    list-style: none;
+    margin-top: 8px;
+}
+header section aside nav ul li a{
+    color: #605E5E;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hover:hover{
+    color: #447f74;
+    transition: 0.3s;
+}
+main .back{
+    text-transform: uppercase;
+}
+header section .left nav ul li a{
+    font-size: 16px;
+}
+header section .right nav ul li a{
+    font-size: 14px;
+}
+main{
+    width: 95%;
+    margin: 10px auto;
+}
+main .back{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 821px;
+    background-image: url('https://static.wixstatic.com/media/9a25f2_d1f2ab46fec94c389da36281a1253780~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_1665,h_821,al_c,q_85,usm_0.66_1.00_0.01/9a25f2_d1f2ab46fec94c389da36281a1253780~mv2_d_4200_2800_s_4_2.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+main .back .backtxt{
+    color: white;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: rgba(54, 54, 54, 0.4);
+    width: 100%;
+    height: 100%;
+}
+main .back .backtxt h1{
+    font-size: 50px;
+    letter-spacing: 30px;
+    margin: 0px;
+    font-weight: 400;
+}
+main .back .backtxt h3{
+    font-size: 20px;
+    letter-spacing: 15px;
+    font-weight: 400;
+}
+.bottom{
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+.bottom a i{
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+}
+.bottom h5{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+}
+main .lineone{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+main .lineone .zeroone{
+    border-right: 0.5px solid #bababa;
+}
+main .about span{
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'Antic Didone', serif;
+}
+main .about p{
+    width: 100%;
+    font-size: 22px;
+    margin: 10px auto;
+    margin-top: 70px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+main .linetwo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+main .linetwo .zerotwo{
+    border-right: 0.5px solid #bababa;
+}
+main .portfolio{
+    font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+main .gray{
+    color: #363636;
+}
+.comment{
+    width: 60px;
+    height: 60px;
+    background-color: #447f74;
+}
+.fa-comment{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  margin: 35px;
+  font-size: 38px;
+  color: white;
+  background-color: #447f74;
+  padding: 14px 14px;
+  border-radius: 10%;
+}
+/* 
+https://static.wixstatic.com/media/9a25f2_02943437f88d4071b653d38d98acd984~mv2_d_2647_1766_s_2.png/v1/fill/w_450,h_450,q_90/9a25f2_02943437f88d4071b653d38d98acd984~mv2_d_2647_1766_s_2.webp
+https://static.wixstatic.com/media/9a25f2_c7182e792f064e2985f4a3654d787b53~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_c7182e792f064e2985f4a3654d787b53~mv2_d_4200_2800_s_4_2.webp
+https://static.wixstatic.com/media/9a25f2_20d44dc58cb34083a1841ecad62405e1~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_527,h_527,q_90/9a25f2_20d44dc58cb34083a1841ecad62405e1~mv2_d_4200_2800_s_4_2.webp
+https://static.wixstatic.com/media/9a25f2_05d792483b604f8a83c972f07477c33d~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_05d792483b604f8a83c972f07477c33d~mv2_d_4200_2800_s_4_2.webp
+https://static.wixstatic.com/media/9a25f2_9c5929f486ec454ca37a34131686d0f4~mv2_d_2647_1766_s_2.png/v1/fill/w_528,h_527,q_90/9a25f2_9c5929f486ec454ca37a34131686d0f4~mv2_d_2647_1766_s_2.webp
+https://static.wixstatic.com/media/9a25f2_ea9b3175b9db4897b1269f8836acf2ca~mv2_d_4256_2832_s_4_2.jpg/v1/fill/w_527,h_527,q_90/9a25f2_ea9b3175b9db4897b1269f8836acf2ca~mv2_d_4256_2832_s_4_2.webp
+https://static.wixstatic.com/media/9a25f2_503cc0687ca94d5388423b6dddad2c48~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_503cc0687ca94d5388423b6dddad2c48~mv2_d_7360_4912_s_4_2.webp
+https://static.wixstatic.com/media/9a25f2_d1f2ab46fec94c389da36281a1253780~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_d1f2ab46fec94c389da36281a1253780~mv2_d_4200_2800_s_4_2.webp
+https://static.wixstatic.com/media/9a25f2_5d554e976a66440b8a95c8fce0d40022~mv2_d_4372_6758_s_4_2.jpg/v1/fill/w_527,h_527,q_90/9a25f2_5d554e976a66440b8a95c8fce0d40022~mv2_d_4372_6758_s_4_2.webp
+ */
+main .gallery{
+    width: 100%;
+}
+main .gallery .photo{
+    display: grid;
+    grid-template-columns: 37% 35% 33%;
+    grid-column-gap: 0px;
+    grid-row-gap: 80px;
+}
+main .gallery .photo article{
+    height: 528px;
+    width: 527px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+main .gallery .photo .photoone{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_02943437f88d4071b653d38d98acd984~mv2_d_2647_1766_s_2.png/v1/fill/w_450,h_450,q_90/9a25f2_02943437f88d4071b653d38d98acd984~mv2_d_2647_1766_s_2.webp');
+}
+main .gallery .photo .phototwo{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_c7182e792f064e2985f4a3654d787b53~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_c7182e792f064e2985f4a3654d787b53~mv2_d_4200_2800_s_4_2.webp');
+}
+main .gallery .photo .photothree{
+   background-image: url('https://static.wixstatic.com/media/9a25f2_20d44dc58cb34083a1841ecad62405e1~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_527,h_527,q_90/9a25f2_20d44dc58cb34083a1841ecad62405e1~mv2_d_4200_2800_s_4_2.webp');
+}
+main .gallery .photo .photofour{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_05d792483b604f8a83c972f07477c33d~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_05d792483b604f8a83c972f07477c33d~mv2_d_4200_2800_s_4_2.webp');
+}
+main .gallery .photo .photofive{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_9c5929f486ec454ca37a34131686d0f4~mv2_d_2647_1766_s_2.png/v1/fill/w_528,h_527,q_90/9a25f2_9c5929f486ec454ca37a34131686d0f4~mv2_d_2647_1766_s_2.webp');
+}
+main .gallery .photo .photosix{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_ea9b3175b9db4897b1269f8836acf2ca~mv2_d_4256_2832_s_4_2.jpg/v1/fill/w_527,h_527,q_90/9a25f2_ea9b3175b9db4897b1269f8836acf2ca~mv2_d_4256_2832_s_4_2.webp');
+}
+main .gallery .photo .photoseven{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_503cc0687ca94d5388423b6dddad2c48~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_503cc0687ca94d5388423b6dddad2c48~mv2_d_7360_4912_s_4_2.webp');
+}
+main .gallery .photo .photoeight{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_d1f2ab46fec94c389da36281a1253780~mv2_d_4200_2800_s_4_2.jpg/v1/fill/w_528,h_527,q_90/9a25f2_d1f2ab46fec94c389da36281a1253780~mv2_d_4200_2800_s_4_2.webp');
+}
+main .gallery .photo .photonine{
+    background-image: url('https://static.wixstatic.com/media/9a25f2_5d554e976a66440b8a95c8fce0d40022~mv2_d_4372_6758_s_4_2.jpg/v1/fill/w_527,h_527,q_90/9a25f2_5d554e976a66440b8a95c8fce0d40022~mv2_d_4372_6758_s_4_2.webp');
+}
+main .gallery .photo article div{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    font-family: 'Antic Didone', serif;
+}
+main .gallery .photo article .overlay:hover{
+    opacity: 1;
+}
+main .linethree{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+main .linethree .zerothree{
+    border-right: 0.5px solid #bababa;
+}
+main .clients span{
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'Antic Didone', serif;
+}
+main .clients p{
+    width: 100%;
+    font-size: 22px;
+    margin: 10px auto;
+    margin-top: 70px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+main .linefour{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+main .linefour .zerofour{
+    border-right: 0.5px solid #bababa;
+}
+main .contact span{
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'Antic Didone', serif;
+}
+main .contact p{
+    width: 100%;
+    font-size: 22px;
+    margin: 10px auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+main .email{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .email div span{
+    font-family: 'Antic Didone', serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-right: 380px;
+}
+main .email div{
+    margin-bottom: 5px;
+}
+main .email a{
+    text-decoration: none;
+    color: black;
+}
+main .email a span{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+main .email a:hover{
+    color: #447f74;
+}
+main .email input{
+    font-family: 'Antic Didone', serif;
+    height: 45px;
+    width: 425px;
+    font-size: 15px;
+}
+main .info{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 110px;
+}
+main .info p{
+    font-weight: 400;
+}
